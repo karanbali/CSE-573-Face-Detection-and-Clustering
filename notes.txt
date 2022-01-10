@@ -1,0 +1,18 @@
+I have used cv2.__version__ = 4.5.1
+
+As cv2 version was >= 4.0.0, i didn't created a requirement.txt file.
+
+I used the following paths to test & run:
+
+
+Part A  (Absolute & Relative paths):
+
+    python FaceDetection.py "/Users/Ken/Desktop/CV_P3/Project3_data/Validation folder"
+
+    python FaceDetection.py "./Validation folder"
+
+Part B (Absolute & Relative paths):
+
+    python FaceCluster.py "./faceCluster_5"
+
+    python FaceCluster.py "/Users/Ken/Desktop/CV_P3/Project3_data/faceCluster_5"
